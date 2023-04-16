@@ -1,0 +1,52 @@
+ @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+ 
+  *{
+	  font-family: 'Delicious Handrawn', cursive;
+
+  }
+  h1{
+	 color:purple;
+	 padding-left:25px;
+	  transition:1s 2s ease;
+      text-shadow: 0 0 5px  #FFFFFF,
+	               0 0 6px  #FFFFFF,
+	               0 0 7px  #FFFFFF,
+                   0 0 10px #FFFFFF;	 
+  }
+
+  footer{
+	   background-color:purple;
+	  border:4px double;
+	  height:200px;
+	  display:flex;
+	  justify-content:center;
+	  align-items:center;
+	  border-radius:50px;
+   }
+   
+   #a{
+	  background-image: url(img/m.jpg);
+	  background-size:100%;
+	 width:100px;
+	 height:100px;
+	 border-radius:50%;
+	  transition:1s 2s ease;
+	 box-shadow: 0 0 0 5px purple ,
+	   0 0 0 10px #FFFFFF;
+  }
+  
+  footer:hover #a{
+    box-shadow:  0 0 0 8px purple, 0 0 0 16px white;
+    transform:translateX(160px) scale(1.1) rotate(360deg) rotate(45deg);
+    background-image: url(img/mario.jpg);	
+	border-radius:69px;
+  
+  }
+  
+  
+  footer:hover h1{
+   
+    transform:translateX(-160px) scale(1.1) rotate(360deg) ;
+    
+  
+  }
